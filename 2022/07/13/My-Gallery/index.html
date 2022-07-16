@@ -159,8 +159,8 @@
   else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
 }
 
-if ('Valine' === 'Valine' || !false) {
-  if (false) btf.loadComment(document.getElementById('vcomment'),loadValine)
+if ('Valine' === 'Valine' || !true) {
+  if (true) btf.loadComment(document.getElementById('vcomment'),loadValine)
   else setTimeout(loadValine, 0)
 } else {
   function loadOtherComment () {
@@ -195,8 +195,8 @@ if ('Valine' === 'Valine' || !false) {
   })
 }
 
-if ('Valine' === 'Disqus' || !false) {
-  if (false) btf.loadComment(document.getElementById('disqus_thread'), loadDisqus)
+if ('Valine' === 'Disqus' || !true) {
+  if (true) btf.loadComment(document.getElementById('disqus_thread'), loadDisqus)
   else loadDisqus()
 } else {
   function loadOtherComment () {
