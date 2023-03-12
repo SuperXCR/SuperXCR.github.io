@@ -778,7 +778,7 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 
 // 注意：live2d_path 参数应使用绝对路径
-const live2d_path = "https://liqur.xyz/live2d-widget/";  //xxx.xx 改成你网站的域名
+const live2d_path = "https://haiyong.site/live2d-widget/";  //xxx.xx 改成你网站的域名
 //const live2d_path = "/live2d-widget/";
 
 // 封装异步加载资源的方法
