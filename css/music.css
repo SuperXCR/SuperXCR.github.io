@@ -25,13 +25,16 @@ body:has(#anMusic-page) #an_music_bg {
 }
 
 body:has(#anMusic-page) {
-  background: rgb(13, 13, 13);
+  /* background: rgb(13, 13, 13); */
+  /* background: url(https://liqur-1309874423.cos.ap-shanghai.myqcloud.com/SuperXCR/anime-girl-cat-city-scenery-uhdpaper.com-4K-145.jpg); */
+  background: wheat;
 }
 
 #anMusic-page meting-js .aplayer {
   display: flex;
   flex-direction: row-reverse;
   background: rgba(0, 0, 0, 0);
+  /* background: yellow; */
   border: none;
   box-shadow: none;
 }
@@ -51,6 +54,7 @@ body:has(#anMusic-page) #nav-music {
 
 #anMusic-page ol > li:hover {
   background: #ffffff33;
+  /* background: yellow; */
   border-radius: 6px;
 }
 #anMusic-page .aplayer-pic {
@@ -72,13 +76,15 @@ body:has(#anMusic-page) #nav-music {
   text-align: center;
   height: auto;
   margin: 15px;
+  /* margin: 100px; */
 }
 
 #anMusic-page .aplayer-info .aplayer-music .aplayer-author,
 #anMusic-page .aplayer-info .aplayer-music .aplayer-title {
   font-size: 2rem;
   font-weight: 700;
-  color: #fff;
+  /* color: #fff; */
+  color: #000;
 }
 
 #anMusic-page .aplayer-info .aplayer-lrc {
@@ -87,8 +93,9 @@ body:has(#anMusic-page) #nav-music {
   mask-image: linear-gradient(to bottom, #000, #000, #000, #000, #000, #000, #000, #000, #000, #000, #0000, #0000);
 }
 #anMusic-page .aplayer-info .aplayer-lrc p {
-  font-size: 14px;
-  color: #fff;
+  font-size: 18px;
+  /* color: #fff; */
+  color: #000;
 }
 #anMusic-page .aplayer .aplayer-lrc:after,
 #anMusic-page .aplayer .aplayer-lrc:before {
@@ -150,6 +157,7 @@ body:has(#anMusic-page) #nav-music {
   width: 2rem;
   height: 2rem;
   margin-left: 15px;
+  /* margin-left: 100px; */
 }
 
 #anMusic-page .aplayer-info .aplayer-time .aplayer-icon-menu {
